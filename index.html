@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>S. Vibhesun Sriraayar | Java Full Stack & Embedded Developer</title>
+<meta name="description" content="Building web applications with code & embedded systems with curiosity.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="loader"><div class="ld-name">VIBHESUN</div><div class="ld-bar"><i></i></div><div class="ld-n">0</div></div>
+<div id="cursor"><span></span></div><div id="dot"></div>
+
+<header class="nav">
+  <a href="#home" class="pill logo mag">VS</a>
+  <nav class="links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="assets/Vibhesun_Sriraayar_Resume.pdf" download>Resume</a></nav>
+  <button class="pill menu mag" id="menuBtn" aria-expanded="false">Menu <span class="dots"></span></button>
+</header>
+<div id="overlay"><a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="assets/Vibhesun_Sriraayar_Resume.pdf" download>Resume</a><a href="#contact">Contact</a></div>
+
+<section id="home" class="hero">
+  <div class="glow"></div>
+  <div class="photo"><img src="assets/profile.png" alt="S. Vibhesun Sriraayar" onerror="this.style.display='none';this.parentNode.classList.add('empty')"><span class="ph">Add your photo as<br><b>assets/profile.png</b></span></div>
+  <div class="hero-txt">
+    <h1 class="title" data-text="VIBHESUN">VIBHESUN</h1>
+    <p class="role" id="role">Java Full Stack Developer</p>
+    <p class="tag">Building web applications with code &amp; embedded systems with curiosity.</p>
+    <div class="cta">
+      <a href="#projects" class="pill btn mag">Discover <span class="dots"></span></a>
+      <a href="mailto:vibhem22@gmail.com" class="btn ghost mag"><span class="dot"></span>Connect With Me</a>
+    </div>
+  </div>
+  <div class="scroll">Scroll</div>
+</section>
+
+<section id="about" class="wrap">
+  <h2 class="rv">About</h2>
+  <div class="grid2">
+    <div class="rv"><p class="big">I'm an Electronics and Communication Engineering student focused on becoming a Java Full Stack Developer.</p>
+    <p>My ECE background gives me a strong interest in embedded software, IoT and hardware-software integration. I learn by building practical applications and solving real-world problems.</p>
+    <p>Right now I'm gaining professional experience through a Java Full Stack internship while strengthening my modern web development skills.</p></div>
+    <div class="facts rv">
+      <div><b data-n="3">0</b><span>Internships</span></div>
+      <div><b data-n="4">0</b><span>Projects</span></div>
+      <div><b data-n="23">0</b><span>Skills</span></div>
+      <div><b data-n="5">0</b><span>Certificates</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="proj">
+ <div class="wrap">
+  <h2 class="rv">Projects</h2>
+  <div class="stage" id="stage" tabindex="0" aria-label="Project timeline. Use arrow keys to move.">
+    <svg class="ring" viewBox="0 0 400 200" aria-hidden="true"><g class="spin"><circle cx="200" cy="200" r="190" fill="none" stroke="#ffb23d" stroke-opacity=".5" stroke-width="2"/><circle cx="200" cy="200" r="170" fill="none" stroke="#ffb23d" stroke-opacity=".25" stroke-dasharray="2 8"/></g><path class="beam" d="M200 20 L120 200 M200 20 L290 200" stroke="#fff" stroke-opacity=".7" stroke-width="1.4" fill="none"/><circle cx="200" cy="20" r="5" fill="#fff"/></svg>
+    <svg class="arc" viewBox="0 0 1000 320" aria-hidden="true"><defs><filter id="gl"><feGaussianBlur stdDeviation="5"/></filter></defs><path d="M40 260 Q500 -60 960 260" fill="none" stroke="#ff9d1f" stroke-width="8" opacity=".55" filter="url(#gl)"/><path id="arcp" d="M40 260 Q500 -60 960 260" fill="none" stroke="#ffc65c" stroke-width="3" stroke-dasharray="1400" stroke-dashoffset="1400"/></svg>
+    <div id="nodes"></div>
+    <button class="pc" data-i="0"><div class="pv v0" data-img="soil"><span>SN</span></div><b>Soil Nutrition System</b><small>May 2025</small></button>
+    <button class="pc" data-i="1"><div class="pv v1" data-img="ecommerce"><span>EC</span></div><b>E-Commerce Website</b><small>Aug 2025</small></button>
+    <button class="pc" data-i="2"><div class="pv v2" data-img="login"><span>LR</span></div><b>Login &amp; Registration</b><small>Aug 2025</small></button>
+    <button class="pc" data-i="3"><div class="pv v3" data-img="gloves"><span>SG</span></div><b>Sensor Gloves</b><small>May 2026</small></button>
+  </div>
+  <div class="ctrl"><button id="pp" aria-label="Previous project">&#8592;</button><button id="pn" aria-label="Next project">&#8594;</button></div>
+  <div class="pdw">
+   <div class="pd" data-i="0"><h3>Soil Nutrition System</h3><p>Embedded and IoT project that measures soil conditions with sensors and a microcontroller.</p><div class="tags"><i>Embedded</i><i>IoT</i><i>Sensors</i></div></div>
+   <div class="pd" data-i="1"><h3>E-Commerce Website</h3><p>Full stack online store with a Spring Boot backend, React front end and MySQL database.</p><div class="tags"><i>Java</i><i>Spring Boot</i><i>React.js</i><i>MySQL</i></div></div>
+   <div class="pd" data-i="2"><h3>Login &amp; Registration Page</h3><p>Responsive sign-in and sign-up page with client-side form validation.</p><div class="tags"><i>HTML</i><i>CSS</i><i>JavaScript</i></div></div>
+   <div class="pd feat" data-i="3"><div><h3>Sensor Gloves for Sign Language Translation</h3><p>Gloves that read finger bends and hand motion, then send the matching message over Bluetooth to an Android app that shows it as text.</p><div class="tags"><i>Flex sensors</i><i>HC-05 Bluetooth</i><i>Analog accelerometer</i><i>Arduino Nano</i><i>Android</i><i>MIT App Inventor</i></div></div>
+   <div class="screen" aria-label="Live message preview"><small>Incoming message</small><div id="msg">HELLO</div><div class="bars"><i></i><i></i><i></i><i></i><i></i></div></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="skills" class="wrap">
+  <h2 class="rv">Skills</h2>
+  <div class="skills rv">
+    <div><h4>Backend</h4><i>Core Java</i><i>Spring Framework</i><i>Spring Boot</i><i>REST APIs</i><i>Servlets</i><i>Hibernate</i><i>JDBC</i></div>
+    <div><h4>Frontend</h4><i>HTML</i><i>CSS</i><i>JavaScript</i><i>React.js</i></div>
+    <div><h4>Databases</h4><i>MySQL</i><i>Oracle SQL</i></div>
+    <div><h4>Embedded &amp; IoT</h4><i>Arduino</i><i>Sensors</i><i>Microcontrollers</i><i>Embedded C</i><i>IoT</i></div>
+    <div><h4>Languages &amp; Tools</h4><i>C</i><i>C++</i><i>Python</i><i>Power BI</i><i>Git</i><i>GitHub</i></div>
+  </div>
+</section>
+<div class="marquee"><div><span>Java</span><span>Spring Boot</span><span>React.js</span><span>MySQL</span><span>Embedded C</span><span>IoT</span><span>Arduino</span><span>Python</span><span>Java</span><span>Spring Boot</span><span>React.js</span><span>MySQL</span><span>Embedded C</span><span>IoT</span><span>Arduino</span><span>Python</span></div></div>
+
+<section id="journey" class="wrap">
+  <h2 class="rv">Journey</h2>
+  <div class="jt" id="jt">
+    <div class="jline"><i id="jfill"></i></div>
+    <article class="je"><div class="jd"></div><div class="jc"><span class="bdg edu">School</span><h3>Pon Vidyasharam</h3><p>Where the foundation was laid.</p>
+      <div class="bars2"><div><small>HSC</small><div class="bar"><b style="--w:69%"></b></div><em>69%</em></div><div><small>SSC</small><div class="bar"><b style="--w:78%"></b></div><em>78%</em></div></div></div></article>
+    <article class="je"><div class="jd"></div><div class="jc"><span class="bdg edu">Education</span><h3>Meenakshi College of Engineering</h3><p>B.E. Electronics and Communication Engineering</p><time>2022 – 2026</time>
+      <div class="cg2"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" class="t"/><circle cx="30" cy="30" r="26" class="f" style="--p:.79"/></svg><div><b>7.9<small>/10</small></b><span>CGPA</span></div></div></div></article>
+    <article class="je"><div class="jd"></div><div class="jc"><span class="bdg int">Internship</span><h3>Mirror Technologies</h3><p>Embedded Systems &amp; IoT</p><time>02 Jul 2025 – 02 Aug 2025</time><div class="tags"><i>Embedded C</i><i>IoT</i></div></div></article>
+    <article class="je"><div class="jd"></div><div class="jc"><span class="bdg int">Internship</span><h3>NSIC</h3><p>Embedded Systems</p><time>Oct 2025 – Jan 2026</time><div class="tags"><i>Arduino</i><i>Sensors</i><i>Microcontrollers</i></div></div></article>
+    <article class="je now"><div class="jd"></div><div class="jc"><span class="bdg int">Internship</span><span class="live">Now</span><h3>QSpiders</h3><p>Java Full Stack Development</p><time>Oct 2025 – Present</time><div class="tags"><i>Spring Boot</i><i>Hibernate</i><i>React.js</i><i>MySQL</i></div></div></article>
+  </div>
+  <h4 class="ch rv">Certificates</h4>
+  <div class="certs">
+    <div class="cert rv"><b>Mastering MySQL: From Beginner to Advanced 2026</b><span>Uday Academy</span></div>
+    <div class="cert rv"><b>Python Programming / Object Oriented Programming</b><span>Coddy Team</span></div>
+    <div class="cert rv"><b>Embedded Systems &amp; IoT Internship</b><span>Mirror Technologies</span></div>
+    <div class="cert rv"><b>Java Full Stack Training / Offer</b><span>QSpiders</span></div>
+    <div class="cert rv"><b>Data Science: Python &amp; Power BI</b><span>COGNITEC / Meenakshi College</span></div>
+  </div>
+</section>
+
+<section id="contact" class="wrap contact">
+  <h2 class="rv">Let's build something.</h2>
+  <a class="mail mag" href="mailto:vibhem22@gmail.com">vibhem22@gmail.com</a>
+  <a class="pill btn mag rs" href="assets/Vibhesun_Sriraayar_Resume.pdf" download>Download Resume <span class="dots"></span></a>
+  <div class="cl"><a href="tel:+919444301579">+91 94443 01579</a><a href="https://github.com/Vibhesun" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/vibhesun-sriraayar-a35a802a0/" target="_blank" rel="noopener">LinkedIn</a><span>Chennai, Tamil Nadu, India</span></div>
+  <footer>© <span id="yr"></span> S. Vibhesun Sriraayar</footer>
+</section>
+<script src="script.js"></script></body></html>
